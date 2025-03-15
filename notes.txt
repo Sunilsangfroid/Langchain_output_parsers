@@ -18,3 +18,11 @@ C) StructuredOutputParser:-
    - It is an output parser in Langchain that helps extract structured JSON data from LLM responses based on predefined field schemas.
    - It works by defining a list of fields(ResponseSchema) that the model should return, ensuring the output follows a structured format.
    - Option available for enforce schema
+   - It can't do the data validation.
+D) PydanticOutputParser:-
+   - It is a structured output parser in Langchain that uses Pydantic models to enforce schema validation when processing LLM responses.
+   - Why Use PydanticOutputParser ?
+      a) Strict Schema Enforcement: Ensures that LLM responses follow a well-defined structure.
+      b) Type Safety: Automatically Converts LLM outputs into Python Objects.
+      c) Easy Validation: Uses Pydantic's built-in validation to catch incorrect or missing data.
+      d) Seamless Integration: Works well with other Langchain components.
