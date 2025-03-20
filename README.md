@@ -8,7 +8,7 @@ Follow these steps to get started with the examples:
 
 ```bash
 # 1. Clone the repository (if you haven't already)
-git clone https://github.com/sunilsangfroid/Langchain_output_parsers.git
+git clone https://github.com/Sunilsangfroid/Langchain_output_parsers.git
 cd Langchain_output_parsers
 
 # 2. Create a virtual environment
